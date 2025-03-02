@@ -2071,43 +2071,84 @@ a {
 .cid-tJS9NNcTLZ .mbr-section-title {
   color: #ffffff;
 }
-/* 🚀 确保整个容器占满屏幕宽度 */
+/* 🌟 让整个 section 撑满父级 */
 .contact-container {
+    display: flex;
+    flex-direction: column; /* 移动端默认上下排列 */
+    align-items: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
+    gap: 20px;
     padding: 20px;
 }
 
-/* 📱 让内容上下排列 */
-.contact-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* 标题样式 */
+.contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
     text-align: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 
-/* 📞 联系方式区域 */
+/* 📞 联系方式 */
 .contact-info {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 8px;
+    width: 100%; /* 让联系方式区域 100% 宽度 */
+    text-align: center;
 }
 
-/* 🌍 地图区域 */
+/* 具体联系方式列表 */
+.contact-box {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.contact-item {
+    margin: 5px 0;
+}
+
+/* 🌍 地图 */
 .contact-map {
     width: 100%;
-    max-width: 900px;
+    display: flex;
+    justify-content: center;
 }
 
-/* 🏗️ 确保地图100%宽度 */
 .contact-map iframe {
     width: 100%;
+    max-width: 1200px;
     height: 400px;
     border-radius: 8px;
     display: block;
 }
+
+/* ✅ PC 端适配，让地图和联系方式并排显示 */
+@media (min-width: 768px) {
+    .contact-container {
+        flex-direction: row; /* PC 端横向排列 */
+        justify-content: space-between;
+    }
+
+    .contact-info {
+        width: 48%;
+        text-align: left;
+    }
+
+    .contact-map {
+        width: 50%;
+    }
+}
+
