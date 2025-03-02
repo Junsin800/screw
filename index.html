@@ -512,11 +512,11 @@
             </h3>
         </div>
 
-        <!-- 使用 flex 让其在 PC 上左右排列，移动端上下排列 -->
-        <div class="row justify-content-center align-items-start flex-column flex-md-row">
-            
-            <!-- 左侧联系方式 -->
-            <div class="contact-info col-12 col-md-5">
+        <!-- 让 PC 和 移动端 都是上下排列 -->
+        <div class="row justify-content-center align-items-start flex-column">
+
+            <!-- 联系方式模块 -->
+            <div class="contact-info col-12">
                 <div class="contact-box">
                     <h5 class="contact-title"><strong data-i18n="contact_us2">联系方式</strong></h5>
                     <ul class="contact-list">
@@ -544,8 +544,8 @@
                 </div>
             </div>
 
-            <!-- 右侧地图 -->
-            <div class="map-wrapper col-12 col-md-7">
+            <!-- 地图模块 -->
+            <div class="map-wrapper col-12">
                 <div class="google-map">
                     <iframe 
                         frameborder="0" 
@@ -555,6 +555,7 @@
                     </iframe>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
