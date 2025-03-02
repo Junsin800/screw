@@ -2071,3 +2071,60 @@ a {
 .cid-tJS9NNcTLZ .mbr-section-title {
   color: #ffffff;
 }
+/* 让 PC 端左右排列，移动端上下排列 */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+}
+
+/* 让文本更清晰 */
+.contact-box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.contact-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+/* 让地图撑满，但不超出 */
+.map-wrapper {
+    width: 100%;
+    max-width: 900px; /* 限制 PC 端的最大宽度 */
+    margin: auto;
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
