@@ -222,7 +222,7 @@ const translations = {
     "keywords": "Verbindungselemente, Bolzen, Schrauben, Nieten, kundenspezifische Verbindungselemente, Hersteller",
     "author": "Xiamen Xiaoxiao Screw Co., Ltd.",
     "title": "Hersteller von Verbindungselementen | Hochwertige Schrauben und Bolzen | Xiamen Xiaoxiao Screw Co., Ltd.",
-    "name_top": "Xiamen Xiaoxiao Screw Co., Ltd.",
+    "name_top": "厦门小小螺丝有限公司",
     "nav_about": "Über uns",
     "nav_categories": "Produktkategorien",
     "nav_products": "Unsere Produkte",
