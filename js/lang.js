@@ -288,7 +288,7 @@ const translations = {
     "electronics5": "Elektronikschraube 5", "electronics6": "Elektronikschraube 6", "electronics7": "Elektronikschraube 7", "electronics8": "Elektronikschraube 8",
     "machinery1": "Maschinenschraube 1", "machinery2": "Maschinenschraube 2", "machinery3": "Maschinenschraube 3", "machinery4": "Maschinenschraube 4",
     "machinery5": "Maschinenschraube 5", "machinery6": "Maschinenschraube 6", "machinery7": "Maschinenschraube 7", "machinery8": "Maschinenschraube 8"
-}
+},
     "ms": {
     "description": "Pengilang pengikat berkualiti tinggi di China, menyediakan bolt, skru, rivet dan pengikat tersuai.",
     "keywords": "pengikat, bolt, skru, rivet, pengikat tersuai, pengeluar",
