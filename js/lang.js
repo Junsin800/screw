@@ -511,7 +511,7 @@ const translations = {
     "keywords": "pengikat, baut, sekrup, paku keling, pengikat kustom, produsen",
     "author": "Xiamen Xiaoxiao Screw Co., Ltd.",
     "title": "Produsen Pengikat | Baut & Sekrup Berkualitas Tinggi | Xiamen Xiaoxiao Screw Co., Ltd.",
-    "name_top": "Xiamen Xiaoxiao Screw Co., Ltd.",
+    "name_top": "厦门小小螺丝有限公司",
     "nav_about": "Tentang Kami",
     "nav_categories": "Kategori Produk",
     "nav_products": "Produk Kami",
